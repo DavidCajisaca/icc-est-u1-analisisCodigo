@@ -22,7 +22,7 @@ public class Benchmarking {
         Random random = new Random();
 
         for (int i = 0; i < n; i++){
-            arreglo[i] = random.nextInt(100000);
+            arreglo[i] = random.nextInt(50000);
            
         }
         return arreglo;
